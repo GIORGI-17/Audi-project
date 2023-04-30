@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+.left {
+    position: absolute;
+    width: 167px;
+    height: 94px;
+    left: 123px;
+    top: 1px;
+    cursor: pointer;
+}
+
+.right {
+    position: absolute;
+    left: 786px;
+    top: 19px;
+    display: flex;
+
+
+}
+
+.paragraph1 {
+
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-bottom: solid 3px transparent;
+    border-radius: 2px;
+}
+
+.paragraph1:hover {
+    border-bottom: solid black 3px;
+    transition: 1s;
+}
+
+.paragraph2 {
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+     cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    border-bottom: solid 3px transparent;
+    border-radius: 2px;
+}
+
+.paragraph2:hover {
+    border-bottom: solid black 3px;
+    transition: 1s;
+}
+
+.paragraph3 {
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-bottom: solid 3px transparent;
+    border-radius: 2px;
+}
+
+.paragraph3:hover {
+    border-bottom: solid black 3px;
+    transition: 1s;
+}
+
+
+.paragraph4 {
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-bottom: solid 3px transparent;
+    border-radius: 2px;
+}
+
+.paragraph4:hover {
+    border-bottom: solid black 3px;
+    transition: 1s;
+}
+
+.second-layer{
+    margin-top: 13%;
+}
+
+.p-info2{
+    text-align: initial;
+    width: 700px;
+    font-size: 13px;
+    margin-left: 50px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+
+.p-info{
+    margin-left: 50px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.h2-text{
+    margin-left: 50px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+}
+
+.small-etron{
+    width: 977px;
+    position: absolute;
+    top: 243px;
+    left: 366px;
+}
+
+.border-onimg{
+    height: 284px;
+    width: 310px;
+    border: solid #adacac;
+    background-color: #b1b0b0;
+    position: absolute;
+    left: 910px;
+    top: 267px;
+    border-radius: 50px;
+}
+
+.base{
+    position: absolute;
+    left: 50px;
+    top: 369px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
+
+.car-prise{
+    position: absolute;
+    left: 50px;
+    top: 399px;
+}
+
+.box{
+    position: absolute;
+    left: 50px;
+    top: 431px;
+    border: solid 2px black;
+    border-radius: 15px;
+    width: 222px;
+    height: 92px;
+    cursor: pointer;
+}
+
+.box:hover{
+  box-shadow: 8px 7px 8px 0px black;
+  transition: 0.9s;
+  transform: scale(1.1);
+}
+
+.galochka{
+    position: absolute;
+    left: 16px;
+    top: 6px;
+}
+
+.carname{
+    position: absolute;
+    top: 40px;
+    left: 16px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
+
+.price2{
+   position: absolute;
+   top: 66px;
+   left: 16px;
+}
+
+.e-tronprofil{
+    width: 1300px;
+    position: absolute;
+    background: none;
+    top: 648px;
+    left: 43px;
+}
+.ext{
+    position: absolute;
+    top: 624px;
+    left: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.color-picker{
+    position: absolute;
+    top: 1100px;
+}
+
+.Colors{
+    display: flex;
+    width: 40px;
+}
+
+.Ext-colors{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+
+.white-ext{
+  width: 70px;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.blue-ext{
+  width: 70px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.gray-ext{
+    width: 70px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.blackgray-ext{
+    width: 70px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.black-ext{
+    width: 70px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.morewhite-ext{
+    width: 70px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.gold-ext{
+    width: 70px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.red-ext{
+    width: 70px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.onemoregray-ext{
+    width: 70px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.interior-image{
+    position: absolute;
+    top: 1361px;
+    width: 1000px;
+    left: 188px;
+}
+
+.int-colors{
+    position: absolute;
+    top: 1775px;
+    left: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textidiv{
+  position: absolute;
+ top: 1745px;
+ left: 50px;
+
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
+
+.picker{
+    width: 70px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.picker:hover{
+  width:75px;
+  transition: 0.6s;
+}
+
+.black-footer{
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    left: 0px;
+    top: 2004px;
+    background: #000000;
+}
+
+.car-model{
+    position: absolute;
+    width: 183px;
+    height: 32px;
+    left: 151px;
+    top: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.car-price{
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    left: 151px;
+    top: 95px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.Sumarry-btn{
+    position: absolute;
+width: 201px;
+height: 80px;
+left: 1027px;
+top: 35px;
+align-items: center;
+display: flex;
+justify-content: center;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+cursor: pointer;
+
+background: #FFFFFF;
+border-radius: 25px;
+}
+
+.Sumarry-btn:hover{
+    background-color: #adacac;
+    transition: 0.3s;
+}

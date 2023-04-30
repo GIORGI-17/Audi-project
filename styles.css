@@ -1,0 +1,570 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.audi-walpeper {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    left: 0px;
+    top: 0px;
+
+}
+
+.left {
+    position: absolute;
+    width: 167px;
+    height: 94px;
+    left: 123px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.right {
+    position: absolute;
+    left: 786px;
+    top: 58px;
+    display: flex;
+
+
+}
+
+.paragraph1 {
+
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.paragraph2 {
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: white;
+    margin-left: 50px;
+}
+
+.paragraph3 {
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 50px;
+    color: white;
+}
+
+.paragraph4 {
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 50px;
+    color: white;
+}
+
+.txt1 {
+    position: absolute;
+    width: 389px;
+    height: 39px;
+    left: 120px;
+    top: 215px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.txt2 {
+    position: absolute;
+    width: 196px;
+    height: 24px;
+    left: 120px;
+    top: 258px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.white-btn {
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 118px;
+    top: 295px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacity-btn {
+    position: absolute;
+    width: 243px;
+    height: 24px;
+    left: 334px;
+    top: 297px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+    width: 322px;
+    height: 80px;
+
+
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.opacity-btn:hover{
+    background-color: #000000;
+    transition: 1s; 
+    border-color: black;
+    
+}
+
+.info1 {
+    position: absolute;
+    width: 113px;
+    height: 39px;
+    left: 278px;
+    top: 970px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+
+    color: #000000;
+
+}
+
+.info2 {
+    position: absolute;
+    width: 120px;
+    height: 39px;
+    left: 900px;
+    top: 970px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+
+    color: #000000;
+
+}
+
+.info3 {
+    position: absolute;
+    width: 105px;
+    height: 39px;
+    left: 1532px;
+    top: 970px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+
+    color: #000000;
+}
+
+.Info-car {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.power-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.battery-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speed-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+
+}
+
+.head-txt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.last-txt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.border-n1 {
+    margin-top: 54px;
+    width: 134.03px;
+    height: 0px;
+    border: 1px dashed rgba(34, 34, 34, 0.5);
+    transform: rotate(90deg);
+}
+
+.border-n2 {
+    width: 134.03px;
+    height: 0px;
+    border: 1px dashed rgba(34, 34, 34, 0.5);
+    transform: rotate(90deg);
+    margin-top: 54px;
+}
+
+.red-audi {
+    width: 100%;
+
+    background: url(1920x1080_EO1I2244_copy_Final_US_SD_V1.jpg);
+
+}
+
+.second-txton {
+    position: absolute;
+    width: 505px;
+    height: 175px;
+    left: 619px;
+    top: 1019px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.right-isari {
+    position: absolute;
+    top: 350px;
+    left: 47px;
+    cursor: pointer;
+}
+
+.right-background {
+    position: absolute;
+    width: 172px;
+    height: 756px;
+    left: 0px;
+    top: 955px;
+    background: rgba(0, 0, 0, 0.21);
+}
+
+.left-background {
+    position: absolute;
+    width: 172px;
+    height: 756px;
+    left: 1171px;
+    top: 955px;
+
+    background: rgba(0, 0, 0, 0.21);
+}
+
+.left-isari {
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    background: #FFFFFF;
+    background: none;
+    cursor: pointer;
+}
+
+.the-balls {
+    position: absolute;
+    left: 618px;
+    top: 1676px;
+    display: flex;
+}
+
+.ball1 {
+    width: 15px;
+    height: 14px;
+    background: #FDFDFD;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ball2 {
+    width: 15px;
+    height: 14px;
+    background: #FDFDFD;
+    margin-left: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ball3 {
+    width: 15px;
+    height: 14px;
+    background: #FDFDFD;
+    margin-left: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ball4 {
+    width: 15px;
+    height: 14px;
+    background: #FDFDFD;
+    margin-left: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ball5 {
+    width: 15px;
+    height: 14px;
+    background: #FDFDFD;
+    margin-left: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.white-etron {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: absolute;
+    left: 116px;
+}
+
+.Shoptxt {
+    position: absolute;
+    width: 1111px;
+    height: 87px;
+    left: 224px;
+    top: 1795px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 87px;
+
+    color: #000000;
+}
+
+.btn-dec1 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    position: absolute;
+    width: 201px;
+    height: 80px;
+    left: 480px;
+    top: 2229px;
+    align-items: center;
+    display: flex;
+    text-decoration:none ;
+}
+
+.btn1 {
+    color: #FFFFFF;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.btn-dec2 {
+    background-color: #000000;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 204px;
+    height: 80px;
+    left: 717px;
+    top: 2229px;
+}
+
+.btn2 {
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.child-logo {
+    position: absolute;
+    width: 139px;
+    height: 79px;
+    left: 98px;
+    top: 2400px;
+
+    background: url(Audi-Logo);
+}
+
+.minitxt {
+    width: 360px;
+    position: absolute;
+    height: 96px;
+    left: 26.67%;
+    right: 54.51%;
+    top: 2400px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.204545px;
+
+    color: #1E2833;
+
+}
+
+.first-child {
+    position: absolute;
+    top: 2400px;
+    right: 440px;
+}
+
+.second-child {
+    position: absolute;
+    top: 2400px;
+    right: 240px;
+}
+
+.third-child {
+    position: absolute;
+    top: 2400px;
+    right: 100px;
+}
+
+.small-twitter {
+    margin-left: 5px;
+}
+
+.small-instagram {
+    margin-left: 5px;
+}
+
+.just-text {
+    position: absolute;
+    height: 20px;
+    left: 38.47%;
+    right: 38.47%;
+    top: 2536px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    text-align: center;
+    letter-spacing: -0.204545px;
+
+    color: #1E2833;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.subtxt{
+    position: absolute;
+top: 2614px;
+left: 405px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+
+
+
+color: #000000;
+}
+
+.icons{
+    position: absolute;
+    top:2700px;
+    left: 506px;
+}
+
+.Instagram{
+cursor: pointer;
+}
+
+.Gmail{
+cursor: pointer;
+}
+
+.Youtube{
+cursor: pointer;
+}
+
+.Portfolium{
+    cursor: pointer;
+}
